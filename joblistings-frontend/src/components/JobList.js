@@ -25,11 +25,10 @@ export default function JobList() {
 
   useEffect(() => {
     loadJobs();
-  }, [currentPage, jobsPerPage]);
+  }, [currentPage, jobsPerPage, filters, searchTerm]);
 
   const loadJobs = async () => {
     try {
-      // Build query string for filters
       const queryParams = new URLSearchParams();
 
       if (filters.country.length > 0) {

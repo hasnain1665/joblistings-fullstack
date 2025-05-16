@@ -14,7 +14,7 @@ export default function JobForm({ onClose }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await createJob(formData);
-    onClose();          // Hide the form after job is added
+    onClose();
   };
 
   return (
