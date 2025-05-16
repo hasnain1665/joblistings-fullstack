@@ -1,0 +1,217 @@
+.job-page {
+  padding: 0px;
+  margin: 0px;
+  top: 0;
+}
+
+
+.job-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.job-filters {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h5 {
+  margin-bottom: 5px;
+}
+
+.checkbox-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-row label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.reset-btn {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #cc0000;
+}
+
+.job-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.job-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-left .job-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.company-name {
+  color: #777;
+  margin: 4px 0;
+}
+
+.location-tags,
+.job-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.tag {
+  background-color: #e0e0e0;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.job-left {
+  flex: 1;
+}
+
+.job-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #d11a2a;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.hero-section {
+  background: linear-gradient(
+    to right,
+    #2e8b57 0%,          /* seagreen */
+    #2e8b57 15%,         /* seagreen */
+    #318d5b 20%,         /* slightly lighter seagreen */
+    #3a9d6a 25%,         /* transition teal-green */
+    #3aa06d 30%,         /* teal */
+    #3a74d2 40%,         /* medium blue */
+    #3a74d2 60%,         /* medium blue (main color) */
+    #2a5abd 75%,         /* darker blue */
+    #1a40a8 90%,         /* deep blue */
+    #0a2585 100%         /* dark blue */
+  );
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.hero-section h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+.hero-section p {
+  color: white;
+}
+
+.search-bar {
+  margin-top: 15px;
+  display: inline-flex;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.job-search-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: #2e8b57;
+  color: #151b54;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #151b54;
+  color: #2e8b57;
+}
+
+/* Add to JobList.css */
+.job-cards-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  background-color: #2e8b57;
+  color: #151b54;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.pagination button:hover {
+  background-color: #151b54;
+  color: #2e8b57;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  color: #151b54;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 14px;
+}
