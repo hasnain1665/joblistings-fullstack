@@ -6,7 +6,10 @@
 
 ## Overview
 
-A full-stack job listings web application that allows users to create, view, and manage job postings through an intuitive React.js frontend and a Flask-based REST API backend. This project demonstrates how modern frontend and backend technologies can work together seamlessly to build real-world applications.
+A full-stack job listings web application that allows users to create, view, and manage
+job postings through an intuitive React.js frontend and a Flask-based REST API backend.
+This project demonstrates how modern frontend and backend technologies can work together
+seamlessly to build real-world applications.
 
 ---
 
@@ -20,6 +23,36 @@ A full-stack job listings web application that allows users to create, view, and
 - **SQLAlchemy ORM** – Easy and efficient MySQL database interactions.
 
 ---
+
+## Screenshots
+
+### Job Post Form
+
+![Job Post Form](Screenshots/1.%20Job%20Post%20Form.png)
+
+### Job Listings Page
+
+![Job Listings Page](Screenshots/2.%20Job%20Listings%20Page.png)
+
+### Job Listings Without Filter
+
+![Job Listings Without Filter](Screenshots/3.%20Jobs%20Without%20Filter.png)
+
+### Job Listings With Country Filter
+
+![Job Listings With Country Filter](Screenshots/4.%20Country%20Filter.png)
+
+### Job Listings With Sector Filter
+
+![Job Listings With Sector Filter](Screenshots/5.%20Sector%20Filter.png)
+
+### Job Listings With Experience Filter
+
+![Job Listings With Experience Filter](Screenshots/6.%20Experience%20Filter.png)
+
+### Job Listings With Experience and Country Filter
+
+![Job Listings With Experience and Country Filter](Screenshots/7.%20Experience%20and%20Country%20Filter.png)
 
 ## Tech Stack
 
