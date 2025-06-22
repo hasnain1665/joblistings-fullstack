@@ -41,18 +41,23 @@ job-listings-app/
 │   ├── public/
 │   ├── src/
 │       ├── components/
+│       │   ├── Footer.css
+│       │   ├── Footer.js
+│       │   ├── JobForm.js
+│       │   ├── JobList.css
+│       │   ├── JobList.js
+│       │   ├── Navbar.css
+│       │   ├── Navbar.js
 │       ├── api.js
 │       ├── App.css
 │       ├── App.js
 │       ├── index.js
-│   └── ...
 ├── server/                  # Flask backend
 │   ├── app.py
 │   ├── database.py
 │   ├── models.py
 │   └── routes.py
 │   └── requirements.txt
-│   └── .env
 └── README.md
 ```
 
